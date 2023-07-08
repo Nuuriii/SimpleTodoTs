@@ -1,6 +1,8 @@
+import { useState } from "react";
+
 export const Todolist = () => {
    return (
-      <div>
+      <div className='main-container'>
          <h1>My Todo</h1>
          <ul>
             <li>Learning</li>
