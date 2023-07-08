@@ -1,5 +1,10 @@
-import { useState } from "react";
+//import { useState } from "react";
+import { Todolist } from "./Todolist";
 
 export const App = () => {
-   return <div>App</div>;
+   return (
+      <div>
+         <Todolist />
+      </div>
+   );
 };
